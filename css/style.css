@@ -97,3 +97,38 @@ figure {
     width : 300px;
 }
 
+.info .one {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 50px;
+    flex: 1;
+    margin-right: auto;
+    text-align: center;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.info .container div {
+    object-fit: cover;
+    padding: 20px;
+    flex: 1, 100, 1%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+}
+
+.info .container .dino {
+    border-radius: 12px;
+    flex: 1, 1, 50%;
+    height: 200px;
+    width: 250px;
+    border-color: #3882F6;
+    border: 3px solid;
+}
+
