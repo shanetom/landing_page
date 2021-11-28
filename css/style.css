@@ -48,9 +48,9 @@ a {
     flex: 1;
 }
 
-.main .flex-container .text .button {
+.button {
     background-color: #3882F6;
-    border: none;
+    border: 1px solid white;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -59,6 +59,7 @@ a {
     font-size: 16px;
     border-radius: 12px;
     flex: 1;
+    outline: 0;
 }
 
 .main .flex-container .text .title {
@@ -132,3 +133,61 @@ figure {
     border: 3px solid;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #1F2937;
+    padding: 10px;
+    text-align: right;
+}
+
+.quote .author {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bolder;
+    color: #1F2937;
+    text-align: right;
+}
+
+.sign-up .container {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.sign-up .container .box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 75px;
+}
+
+.sign-up .container .text .one {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bolder;
+    color: white;
+}
+
+.sign-up .container .text {
+    padding: 25px;
+}
+
+.sign-up .container .text .two {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-style: normal;
+}
+
+.sign-up .container .box .signup {
+    padding: 25px;
+    outline: 12px;
+    align-items: center;
+}
